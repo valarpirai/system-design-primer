@@ -1,9 +1,9 @@
-*[English](README.md) ∙ [简体中文](README-zh-Hans.md) | [Brazilian Portuguese](https://github.com/donnemartin/system-design-primer/issues/40) ∙ [Polish](https://github.com/donnemartin/system-design-primer/issues/68) ∙ [Russian](https://github.com/donnemartin/system-design-primer/issues/87) ∙ [Turkish](https://github.com/donnemartin/system-design-primer/issues/39) | [Add Translation](https://github.com/donnemartin/system-design-primer/issues/28)*
+*[English](README.md) ∙ [日本語](README-ja.md) ∙ [简体中文](README-zh-Hans.md) ∙ [繁體中文](README-zh-TW.md) | [العَرَبِيَّة‎](https://github.com/donnemartin/system-design-primer/issues/170) ∙ [বাংলা](https://github.com/donnemartin/system-design-primer/issues/220) ∙ [Português do Brasil](https://github.com/donnemartin/system-design-primer/issues/40) ∙ [Deutsch](https://github.com/donnemartin/system-design-primer/issues/186) ∙ [ελληνικά](https://github.com/donnemartin/system-design-primer/issues/130) ∙ [עברית](https://github.com/donnemartin/system-design-primer/issues/272) ∙ [Italiano](https://github.com/donnemartin/system-design-primer/issues/104) ∙ [韓國語](https://github.com/donnemartin/system-design-primer/issues/102) ∙ [فارسی](https://github.com/donnemartin/system-design-primer/issues/110) ∙ [Polski](https://github.com/donnemartin/system-design-primer/issues/68) ∙ [русский язык](https://github.com/donnemartin/system-design-primer/issues/87) ∙ [Español](https://github.com/donnemartin/system-design-primer/issues/136) ∙ [ภาษาไทย](https://github.com/donnemartin/system-design-primer/issues/187) ∙ [Türkçe](https://github.com/donnemartin/system-design-primer/issues/39) ∙ [tiếng Việt](https://github.com/donnemartin/system-design-primer/issues/127) ∙ [Français](https://github.com/donnemartin/system-design-primer/issues/250) | [Add Translation](https://github.com/donnemartin/system-design-primer/issues/28)*
 
 # システム設計入門
 
 <p align="center">
-  <img src="http://i.imgur.com/jj3A5N8.png">
+  <img src="http://i.imgur.com/jj3A5N8.png"/>
   <br/>
 </p>
 
@@ -44,7 +44,7 @@
 ## 暗記カード
 
 <p align="center">
-  <img src="http://i.imgur.com/zdCAkB3.png">
+  <img src="http://i.imgur.com/zdCAkB3.png"/>
   <br/>
 </p>
 
@@ -61,7 +61,7 @@
 コード技術面接用の問題を探している場合は[**こちら**](https://github.com/donnemartin/interactive-coding-challenges)
 
 <p align="center">
-  <img src="http://i.imgur.com/b4YtAEN.png">
+  <img src="http://i.imgur.com/b4YtAEN.png"/>
   <br/>
 </p>
 
@@ -91,7 +91,7 @@
 > それぞれのセクションはより学びを深めるような他の文献へのリンクが貼られています。
 
 <p align="center">
-  <img src="http://i.imgur.com/jrUBAF7.png">
+  <img src="http://i.imgur.com/jrUBAF7.png"/>
   <br/>
 </p>
 
@@ -436,7 +436,7 @@
 ### CAP 理論
 
 <p align="center">
-  <img src="http://i.imgur.com/bgLMI2u.png">
+  <img src="http://i.imgur.com/bgLMI2u.png"/>
   <br/>
   <i><a href=http://robertgreiner.com/2014/08/cap-theorem-revisited>Source: CAP theorem revisited</a></i>
 </p>
@@ -471,9 +471,9 @@
 
 ### 弱い一貫性
 
-書き込み後の読み取りでは、その最新の書き込みを読めたり読めなかったりする。一番良いアプローチが選択される。
+書き込み後の読み取りでは、その最新の書き込みを読めたり読めなかったりする。ベストエフォート型のアプローチに基づく。
 
-メムキャッシュなどのシステムにおいてこのアプローチは取られる。弱い一貫性はリアルタイム性が必要な使用例、例えばVoIP、ビデオチャット、リアルタイムマルチプレイヤーゲームなどと相性がいいでしょう。例えば、電話に出ていて、受信を数秒受け取れなかったとして、その後に接続回復してもその接続が切断されていた間に話されていたことは聞き取れないというような感じです。
+このアプローチはmemcachedなどのシステムに見られます。弱い一貫性はリアルタイム性が必要なユースケース、例えばVoIP、ビデオチャット、リアルタイムマルチプレイヤーゲームなどと相性がいいでしょう。例えば、電話に出ているときに数秒間音声が受け取れなくなったとしたら、その後に接続が回復してもその接続が切断されていた間に話されていたことは聞き取れないというような感じです。
 
 ### 結果整合性
 
@@ -530,7 +530,7 @@
 ## ドメインネームシステム
 
 <p align="center">
-  <img src="http://i.imgur.com/IOyLj4i.jpg">
+  <img src="http://i.imgur.com/IOyLj4i.jpg"/>
   <br/>
   <i><a href=http://www.slideshare.net/srikrupa5/dns-security-presentation-issa>Source: DNS security presentation</a></i>
 </p>
@@ -568,7 +568,7 @@ DNSは少数のオーソライズされたサーバーが上位に位置する�
 ## コンテンツデリバリーネットワーク(Content delivery network)
 
 <p align="center">
-  <img src="http://i.imgur.com/h9TAuGI.jpg">
+  <img src="http://i.imgur.com/h9TAuGI.jpg"/>
   <br/>
   <i><a href=https://www.creative-artworks.eu/why-use-a-content-delivery-network-cdn/>Source: Why use a CDN</a></i>
 </p>
@@ -582,7 +582,7 @@ CDNを用いてコンテンツを配信することで以下の二つの理由�
 
 ### プッシュCDN
 
-プッシュCDNではサーバーデータに更新があった時には必ず、新しいコンテンツを受け取る方式です。コンテンツを配信し、CDNに直接アップロードし、URLをCDNを指すように指定するところまで全ての責任を負う形です。コンテンツがいつ期限切れになるのか更新されるのかを設定することができます。コンテンツは新規作成時、更新時のみアップロードされることでトラフィックは最小化される一方、ストレージは最大限消費されてしまいます。
+プッシュCDNではサーバーデータに更新があった時には必ず、新しいコンテンツを受け取る方式です。コンテンツを用意し、CDNに直接アップロードし、URLをCDNを指すように指定するところまで、全て自分で責任を負う形です。コンテンツがいつ期限切れになるのか更新されるのかを設定することができます。コンテンツは新規作成時、更新時のみアップロードされることでトラフィックは最小化される一方、ストレージは最大限消費されてしまいます。
 
 トラフィックの少ない、もしくは頻繁にはコンテンツが更新されないサイトの場合にはプッシュCDNと相性がいいでしょう。コンテンツは定期的に再びプルされるのではなく、CDNに一度のみ配置されます。
 
@@ -609,7 +609,7 @@ CDNを用いてコンテンツを配信することで以下の二つの理由�
 ## ロードバランサー
 
 <p align="center">
-  <img src="http://i.imgur.com/h81n9iK.png">
+  <img src="http://i.imgur.com/h81n9iK.png"/>
   <br/>
   <i><a href=http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html>Source: Scalable system design patterns</a></i>
 </p>
@@ -651,7 +651,7 @@ Layer 7 ロードバランサーは [アプリケーションレイヤー](#通�
 
 ### 水平スケーリング
 
-ロードバランサーでは水平スケーリングによってパフォーマンスと可用性を向上させることができます。手頃な汎用マシンを追加することによってスケーリングさせる方が、 **垂直スケーリング** と言って、サーバーをよりハイパフォーマンスなマシンに載せ替えることよりもずっと費用対効果も可用性も高いでしょう。また、汎用ハードウェアを扱える人材を雇う方が、特化型の商用ハードウェアを扱える人材を雇うよりも簡単でしょう。
+ロードバランサーでは水平スケーリングによってパフォーマンスと可用性を向上させることができます。手頃な汎用マシンを追加することによってスケールアウトさせる方が、一つのサーバーをより高価なマシンにスケールアップする（**垂直スケーリング**）より費用対効果も高くなり、結果的に可用性も高くなります。また、汎用ハードウェアを扱える人材を雇う方が、特化型の商用ハードウェアを扱える人材を雇うよりも簡単でしょう。
 
 #### 欠点: 水平スケーリング
 
@@ -679,7 +679,7 @@ Layer 7 ロードバランサーは [アプリケーションレイヤー](#通�
 ## リバースプロキシ(webサーバー)
 
 <p align="center">
-  <img src="http://i.imgur.com/n41Azff.png">
+  <img src="http://i.imgur.com/n41Azff.png"/>
   <br/>
   <i><a href=https://upload.wikimedia.org/wikipedia/commons/6/67/Reverse_proxy_h2g2bob.svg>Source: Wikipedia</a></i>
   <br/>
@@ -689,7 +689,7 @@ Layer 7 ロードバランサーは [アプリケーションレイヤー](#通�
 
 他には以下のような利点があります:
 
-* **より堅牢なセキュリティ** - バックエンドサーバーの情報、ブラックリストIP、クライアントごとの接続数などの情報を隠すことができます。
+* **より堅牢なセキュリティ** - バックエンドサーバーの情報を隠したり、IPアドレスをブラックリスト化したり、クライアントごとの接続数を制限したりできます。
 * **スケーラビリティや柔軟性が増します** - クライアントはリバースプロキシのIPしか見ないので、裏でサーバーをスケールしたり、設定を変えやすくなります。
 * **SSL termination** - 入力されるリクエストを解読し、サーバーのレスポンスを暗号化することでサーバーがこのコストのかかりうる処理をしなくて済むようになります。
     * [X.509 証明書](https://en.wikipedia.org/wiki/X.509) を各サーバーにインストールする必要がなくなります。
@@ -722,7 +722,7 @@ Layer 7 ロードバランサーは [アプリケーションレイヤー](#通�
 ## アプリケーション層
 
 <p align="center">
-  <img src="http://i.imgur.com/yB5SYwm.png">
+  <img src="http://i.imgur.com/yB5SYwm.png"/>
   <br/>
   <i><a href=http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer>Source: Intro to architecting systems for scale</a></i>
 </p>
@@ -759,7 +759,7 @@ Layer 7 ロードバランサーは [アプリケーションレイヤー](#通�
 ## データベース
 
 <p align="center">
-  <img src="http://i.imgur.com/Xkm5CXz.png">
+  <img src="http://i.imgur.com/Xkm5CXz.png"/>
   <br/>
   <i><a href=https://www.youtube.com/watch?v=w95murBkYmU>Source: Scaling up to your first 10 million users</a></i>
 </p>
@@ -782,7 +782,7 @@ SQLなどのリレーショナルデータベースはテーブルに整理さ�
 マスターデータベースが読み取りと書き込みを処理し、書き込みを一つ以上のスレーブデータベースに複製します。スレーブデータベースは読み取りのみを処理します。スレーブデータベースは木構造のように追加のスレーブにデータを複製することもできます。マスターデータベースがオフラインになった場合には、いずれかのスレーブがマスターに昇格するか、新しいマスターデータベースが追加されるまでは読み取り専用モードで稼働します。
 
 <p align="center">
-  <img src="http://i.imgur.com/C9ioGtn.png">
+  <img src="http://i.imgur.com/C9ioGtn.png"/>
   <br/>
   <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>Source: Scalability, availability, stability, patterns</a></i>
 </p>
@@ -797,7 +797,7 @@ SQLなどのリレーショナルデータベースはテーブルに整理さ�
 いずれのマスターも読み取り書き込みの両方に対応する。書き込みに関してはそれぞれ協調する。いずれかのマスターが落ちても、システム全体としては読み書き両方に対応したまま運用できる。
 
 <p align="center">
-  <img src="http://i.imgur.com/krAHLGg.png">
+  <img src="http://i.imgur.com/krAHLGg.png"/>
   <br/>
   <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>Source: Scalability, availability, stability, patterns</a></i>
 </p>
@@ -825,12 +825,12 @@ SQLなどのリレーショナルデータベースはテーブルに整理さ�
 #### Federation
 
 <p align="center">
-  <img src="http://i.imgur.com/U3qV33e.png">
+  <img src="http://i.imgur.com/U3qV33e.png"/>
   <br/>
   <i><a href=https://www.youtube.com/watch?v=w95murBkYmU>Source: Scaling up to your first 10 million users</a></i>
 </p>
 
-フェデレーション (もしくは機能分割化とも言う) はデータベースを機能ごとに分割する。例えば、モノリシックな単一データベースの代わりに三つのデータベースを持つことができます: **フォーラム**、 **ユーザー** そして **プロダクト**です。各データベースへの書き込み読み取りのトラフィックが減ることで複製ラグも短くなります。より小さなデータベースを用いることで、メモリーに収まるデータが増えます。ローカルキャッシュに保存できる量が増えることで、キャッシュヒット率も上がります。単一の中央マスターが書き込みの処理をしなくても、並列で書き込みを処理することができ、スループットの向上が期待できます。
+フェデレーション (もしくは機能分割化とも言う) はデータベースを機能ごとに分割する。例えば、モノリシックな単一データベースの代わりに、データベースを **フォーラム**、 **ユーザー**、 **プロダクト** のように三つにすることで、データベース一つあたりの書き込み・読み取りのトラフィックが減り、その結果レプリケーションのラグも短くなります。データベースが小さくなることで、メモリーに収まるデータが増えます。キャッシュの局所性が高まるため、キャッシュヒット率も上がります。単一の中央マスターで書き込みを直列化したりしないため、並列で書き込みを処理することができ、スループットの向上が期待できます。
 
 ##### 欠点: federation
 
@@ -846,7 +846,7 @@ SQLなどのリレーショナルデータベースはテーブルに整理さ�
 #### シャーディング
 
 <p align="center">
-  <img src="http://i.imgur.com/wU8x5Id.png">
+  <img src="http://i.imgur.com/wU8x5Id.png"/>
   <br/>
   <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>Source: Scalability, availability, stability, patterns</a></i>
 </p>
@@ -955,7 +955,7 @@ NoSQL は **key-value store**、 **document-store**、 **wide column store**、 
 
 > 概要: ハッシュテーブル
 
-キーバリューストアでは一般的に0、1の読み、書きができ、それらはメモリないしSSDで裏付けられています。データストアはキーを [辞書的順序](https://en.wikipedia.org/wiki/Lexicographical_order) で保持することでキーの効率的な取得を可能にしています。キーバリューストアではメタデータを値とともに保持することが可能です。
+キーバリューストアでは一般的にO(1)の読み書きができ、それらはメモリないしSSDで裏付けられています。データストアはキーを [辞書的順序](https://en.wikipedia.org/wiki/Lexicographical_order) で保持することでキーの効率的な取得を可能にしています。キーバリューストアではメタデータを値とともに保持することが可能です。
 
 キーバリューストアはハイパフォーマンスな挙動が可能で、単純なデータモデルやインメモリーキャッシュレイヤーなどのデータが急速に変わる場合などに使われます。単純な処理のみに機能が制限されているので、追加の処理機能が必要な場合にはその複雑性はアプリケーション層に載せることになります。
 
@@ -990,7 +990,7 @@ NoSQL は **key-value store**、 **document-store**、 **wide column store**、 
 #### ワイドカラムストア
 
 <p align="center">
-  <img src="http://i.imgur.com/n16iOGk.png">
+  <img src="http://i.imgur.com/n16iOGk.png"/>
   <br/>
   <i><a href=http://blog.grio.com/2015/11/sql-nosql-a-brief-history.html>Source: SQL & NoSQL, a brief history</a></i>
 </p>
@@ -1013,7 +1013,7 @@ Googleは[Bigtable](http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/cha
 #### グラフデータベース
 
 <p align="center">
-  <img src="http://i.imgur.com/fNcl65g.png">
+  <img src="http://i.imgur.com/fNcl65g.png"/>
   <br/>
   <i><a href=https://en.wikipedia.org/wiki/File:GraphDatabase_PropertyGraph.png>Source: Graph database</a></i>
 </p>
@@ -1041,7 +1041,7 @@ Googleは[Bigtable](http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/cha
 ### SQLか？NoSQLか？
 
 <p align="center">
-  <img src="http://i.imgur.com/wXGqG5f.png">
+  <img src="http://i.imgur.com/wXGqG5f.png"/>
   <br/>
   <i><a href=https://www.infoq.com/articles/Transition-RDBMS-NoSQL/>Source: Transitioning from RDBMS to NoSQL</a></i>
 </p>
@@ -1083,7 +1083,7 @@ NoSQLに適するサンプルデータ:
 ## キャッシュ
 
 <p align="center">
-  <img src="http://i.imgur.com/Q6z24La.png">
+  <img src="http://i.imgur.com/Q6z24La.png"/>
   <br/>
   <i><a href=http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html>Source: Scalable system design patterns</a></i>
 </p>
@@ -1154,7 +1154,7 @@ Redisはさらに以下のような機能を備えています:
 #### キャッシュアサイド
 
 <p align="center">
-  <img src="http://i.imgur.com/ONjORqk.png">
+  <img src="http://i.imgur.com/ONjORqk.png"/>
   <br/>
   <i><a href=http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast>Source: From cache to in-memory data grid</a></i>
 </p>
@@ -1166,7 +1166,7 @@ Redisはさらに以下のような機能を備えています:
 * エントリをキャッシュに追加します
 * エントリを返します
 
-```
+```python
 def get_user(self, user_id):
     user = cache.get("user.{0}", user_id)
     if user is None:
@@ -1190,7 +1190,7 @@ def get_user(self, user_id):
 #### ライトスルー
 
 <p align="center">
-  <img src="http://i.imgur.com/0vBc0hN.png">
+  <img src="http://i.imgur.com/0vBc0hN.png"/>
   <br/>
   <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>Source: Scalability, availability, stability, patterns</a></i>
 </p>
@@ -1209,7 +1209,7 @@ set_user(12345, {"foo":"bar"})
 
 キャッシュコード:
 
-```
+```python
 def set_user(user_id, values):
     user = db.query("UPDATE Users WHERE id = {0}", user_id, values)
     cache.set(user_id, user)
@@ -1225,7 +1225,7 @@ def set_user(user_id, values):
 #### ライトビハインド (ライトバック)
 
 <p align="center">
-  <img src="http://i.imgur.com/rgSrvjG.png">
+  <img src="http://i.imgur.com/rgSrvjG.png"/>
   <br/>
   <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>Source: Scalability, availability, stability, patterns</a></i>
 </p>
@@ -1243,7 +1243,7 @@ def set_user(user_id, values):
 #### リフレッシュアヘッド
 
 <p align="center">
-  <img src="http://i.imgur.com/kxtjqgE.png">
+  <img src="http://i.imgur.com/kxtjqgE.png"/>
   <br/>
   <i><a href=http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast>Source: From cache to in-memory data grid</a></i>
 </p>
@@ -1275,7 +1275,7 @@ def set_user(user_id, values):
 ## 非同期処理
 
 <p align="center">
-  <img src="http://i.imgur.com/54GYsSx.png">
+  <img src="http://i.imgur.com/54GYsSx.png"/>
   <br/>
   <i><a href=http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer>Source: Intro to architecting systems for scale</a></i>
 </p>
@@ -1321,7 +1321,7 @@ def set_user(user_id, values):
 ## 通信
 
 <p align="center">
-  <img src="http://i.imgur.com/5KeocQs.jpg">
+  <img src="http://i.imgur.com/5KeocQs.jpg"/>
   <br/>
   <i><a href=http://www.escotal.com/osilayer.html>Source: OSI 7 layer model</a></i>
 </p>
@@ -1353,7 +1353,7 @@ HTTPは**TCP** や **UDP** などの低級プロトコルに依存している�
 ### 伝送制御プロトコル (TCP)
 
 <p align="center">
-  <img src="http://i.imgur.com/JdAsdvG.jpg">
+  <img src="http://i.imgur.com/JdAsdvG.jpg"/>
   <br/>
   <i><a href=http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/>Source: How to make a multiplayer game</a></i>
 </p>
@@ -1377,7 +1377,7 @@ TCPは高い依存性を要し、時間制約が厳しくないものに適し�
 ### ユーザデータグラムプロトコル (UDP)
 
 <p align="center">
-  <img src="http://i.imgur.com/yzDrJtA.jpg">
+  <img src="http://i.imgur.com/yzDrJtA.jpg"/>
   <br/>
   <i><a href=http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/>Source: How to make a multiplayer game</a></i>
 </p>
@@ -1406,7 +1406,7 @@ TCPよりもUDPを使うのは:
 ### 遠隔手続呼出 (RPC)
 
 <p align="center">
-  <img src="http://i.imgur.com/iF4Mkb5.png">
+  <img src="http://i.imgur.com/iF4Mkb5.png"/>
   <br/>
   <i><a href=http://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview>Source: Crack the system design interview</a></i>
 </p>
@@ -1555,7 +1555,7 @@ Latency Comparison Numbers
 L1 cache reference                           0.5 ns
 Branch mispredict                            5   ns
 L2 cache reference                           7   ns                      14x L1 cache
-Mutex lock/unlock                          100   ns
+Mutex lock/unlock                           25   ns
 Main memory reference                      100   ns                      20x L2 cache, 200x L1 cache
 Compress 1K bytes with Zippy            10,000   ns       10 us
 Send 1 KB bytes over 1 Gbps network     10,000   ns       10 us
@@ -1602,7 +1602,7 @@ Notes
 | 質問 | 解答 |
 |---|---|
 | Dropboxのようなファイル同期サービスを設計する | [youtube.com](https://www.youtube.com/watch?v=PE4gwstWhmc) |
-| Googleのような検索エンジンの設計 | [queue.acm.org](http://queue.acm.org/detail.cfm?id=988407)<br/>[stackexchange.com](http://programmers.stackexchange.com/questions/38324/interview-question-how-would-you-implement-google-search)<br/>[ardendertat.com](http://www.ardendertat.com/2012/01/11/implementing-search-engines/)<br>[stanford.edu](http://infolab.stanford.edu/~backrub/google.html) |
+| Googleのような検索エンジンの設計 | [queue.acm.org](http://queue.acm.org/detail.cfm?id=988407)<br/>[stackexchange.com](http://programmers.stackexchange.com/questions/38324/interview-question-how-would-you-implement-google-search)<br/>[ardendertat.com](http://www.ardendertat.com/2012/01/11/implementing-search-engines/)<br/>[stanford.edu](http://infolab.stanford.edu/~backrub/google.html) |
 | Googleのようなスケーラブルなwebクローラーの設計 | [quora.com](https://www.quora.com/How-can-I-build-a-web-crawler-from-scratch) |
 | Google docsの設計 | [code.google.com](https://code.google.com/p/google-mobwrite/)<br/>[neil.fraser.name](https://neil.fraser.name/writing/sync/) |
 | Redisのようなキーバリューストアの設計 | [slideshare.net](http://www.slideshare.net/dvirsky/introduction-to-redis) |
@@ -1629,7 +1629,7 @@ Notes
 > 世の中のシステムがどのように設計されているかについての記事
 
 <p align="center">
-  <img src="http://i.imgur.com/TcUo2fw.png">
+  <img src="http://i.imgur.com/TcUo2fw.png"/>
   <br/>
   <i><a href=https://www.infoq.com/presentations/Twitter-Timeline-Scalability>Source: Twitter timelines at scale</a></i>
 </p>
