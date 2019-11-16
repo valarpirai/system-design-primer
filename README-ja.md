@@ -48,7 +48,7 @@
   <br/>
 </p>
 
-この[暗記カードアプリケーション](https://apps.ankiweb.net/) は、システム設計の主要な概念を学ぶのに役立つアプリケーションです。程よい間隔で同じ問題を繰り返し出題してくれます。
+この[Anki用フラッシュカードデッキ](https://apps.ankiweb.net/) は、間隔反復を活用して、システム設計のキーコンセプトの学習を支援します。
 
 * [システム設計デッキ](resources/flash_cards/System%20Design.apkg)
 * [システム設計練習課題デッキ](resources/flash_cards/System%20Design%20Exercises.apkg)
@@ -664,7 +664,7 @@ Layer 7 ロードバランサーは [アプリケーションレイヤー](#通�
 
 * ロードバランサーはリソースが不足していたり、設定が適切でない場合、システム全体のボトルネックになる可能性があります。
 * 単一障害点を除こうとしてロードバランサーを導入した結果、複雑さが増してしまうことになります。
-* 単一ロードバランサーでは単一障害点が除かれたことにはなりませんが、複数のロードバランサーはそれすなわち複雑化です。
+* ロードバランサーが一つだけだとそこが単一障害点になってしまいます。一方で、ロードバランサーを複数にすると、さらに複雑さが増してしまいます。
 
 ### その他の参考資料、ページ
 
@@ -741,7 +741,7 @@ Layer 7 ロードバランサーは [アプリケーションレイヤー](#通�
 
 ### サービスディスカバリー
 
-[Consul](https://www.consul.io/docs/index.html)、 [Etcd](https://coreos.com/etcd/docs/latest)、 そして [Zookeeper](http://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper) などのシステムはそれぞれを見つけやすいように、登録された名前、アドレス、そしてポート番号などを監視しています。[Health checks](https://www.consul.io/intro/getting-started/checks.html) はサービスの統一性を証明するのに有用ですが、しばしば[HTTP](#hypertext-transfer-protocol-http) エンドポイントを用いています。  Consul と Etcd のいずれも組み込みの [key-value store](#キーバリューストア) を持っており、設定データや共有データなどのデータを保存しておくことに使われます。
+[Consul](https://www.consul.io/docs/index.html)、 [Etcd](https://coreos.com/etcd/docs/latest)、 [Zookeeper](http://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper) などのシステムでは、登録されているサービスの名前、アドレス、ポートの情報を監視することで、サービス同士が互いを見つけやすくしています。サービスの完全性の確認には [Health checks](https://www.consul.io/intro/getting-started/checks.html) が便利で、これには [HTTP](#hypertext-transfer-protocol-http) エンドポイントがよく使われます。 Consul と Etcd のいずれも組み込みの [key-value store](#キーバリューストア) を持っており、設定データや共有データなどのデータを保存しておくことに使われます。
 
 ### 欠点: アプリケーション層
 
